@@ -16,3 +16,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Mobile-first workflow
 
 ### What I learned
+
+Picture element
+CSS Local fonts
