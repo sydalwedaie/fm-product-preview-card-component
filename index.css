@@ -92,15 +92,12 @@ body {
 }
 
 .product-img-wrapper {
-
   @media (min-width: 40rem) {
     width: 50%;
     img {
       object-fit: cover;
       height: 100%;
-
     }
-
   }
 }
 
@@ -162,8 +159,13 @@ body {
   gap: 0.75rem;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.1s ease-in-out;
   &::before {
     content: url("/assets/icon-cart.svg")
+  }
+  &:hover {
+    background-color: #1A4032;
+    
   }
 }
 
