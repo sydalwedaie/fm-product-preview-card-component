@@ -149,6 +149,7 @@ body {
 }
 
 .product-action button {
+  cursor: pointer;
   color: white;
   background-color: var(--deep-aquamarine);
   border: 0;
@@ -165,7 +166,6 @@ body {
   }
   &:hover {
     background-color: #1A4032;
-    
   }
 }
 
